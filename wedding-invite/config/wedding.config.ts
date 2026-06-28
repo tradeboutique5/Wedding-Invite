@@ -30,7 +30,7 @@ export const weddingConfig = {
   meta: {
     title: "Alessandro e Valentina — 12 Settembre 2026",
     description: "Siamo felici di invitarti al nostro matrimonio",
-    ogImage: "/images/og-image.jpg",
+    ogImage: "/images/foto iniziale.jpeg",
     themeColor: "#c9a96e",
   },
 
