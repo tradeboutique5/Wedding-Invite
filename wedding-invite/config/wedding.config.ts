@@ -8,14 +8,14 @@ export const weddingConfig = {
   bride: {
     name: "Valentina",
     fullName: "Valentina",
-    phone: "+39 333 0000000",
-    whatsapp: "39333000000",
+    phone: "+39 3469488131",
+    whatsapp: "+39 3469488131",
   },
   groom: {
     name: "Alessandro",
     fullName: "Alessandro",
-    phone: "+39 338 0000000",
-    whatsapp: "39338000000",
+    phone: "+39 349 5562254",
+    whatsapp: "+39 349 5562254",
   },
 
   // ── EVENTO ────────────────────────────────────────────────
@@ -49,11 +49,11 @@ export const weddingConfig = {
     title: "La Nostra Storia",
     subtitle: "Come tutto è iniziato...",
     paragraphs: [
-      "​Nel 2017 le nostre strade si sono incrociate per la prima volta. 
-       Da allora sono passati anni intensi, pieni di complicità, supporto reciproco e un amore che è cresciuto giorno dopo giorno. Il 12 settembre 2026 faremo il passo più importante. 
-       Sarà una gioia immensa avervi al nostro fianco mentre coroniamo la nostra storia.",
+    "Nove anni fa, nel 2017, le nostre strade si sono incrociate per la prima volta. 
+    Da allora, Gaeta è diventata il nostro nido d’amore, il luogo del cuore dove ogni tramonto ha custodito i nostri sogni e visto crescere la nostra storia. 
+    Oggi, più uniti che mai, siamo pronti a iniziare il capitolo più bello ed emozionante della nostra vita insieme.",
     ],
-    image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80",
+    image: "/images/foto la nostra storia.jpeg",
   },
 
   // ── CERIMONIA & RICEVIMENTO ───────────────────────────────
@@ -62,23 +62,24 @@ export const weddingConfig = {
       id: "ceremony",
       icon: "💍",
       label: "Cerimonia",
-      title: "Chiesa di San Francesco",
-      time: "Ore 10:00",
-      address: "Gaeta Vecchia",
+      title: "Tempio di San Francesco",
+      time: "Ore 10:30",
+      address: "Via San Giovanni Bosco 8",
       city: "Gaeta (LT)",
-      mapsUrl: "https://maps.google.com/?q=Chiesa+San+Francesco+Gaeta",
-      mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d13.5759!3d41.2087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zGaeta!5e0!3m2!1sit!2sit!4v1234567890",
+      mapsUrl: "https://maps.app.goo.gl/k84SWnEH3zRCHzkA9",
+      mapsEmbed:  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.4981328579306!2d13.578183276846724!3d41.21091390692173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ad372e0bd91db%3A0x7170c56d77f4a7b8!2sTempio%20di%20San%20Francesco%20d&#39;Assisi!5e0!3m2!1sit!2sit!4v1782638814399!5m2!1sit!2sit",
     },
     {
       id: "reception",
       icon: "🥂",
       label: "Ricevimento",
       title: "Summit Hotel",
-      time: "Ore 15:00",
-      address: "Gaeta",
+      time: "Ore 13:00",
+      address: "Via Flacca, Km 23",
       city: "Gaeta (LT)",
-      mapsUrl: "https://maps.google.com/?q=Summit+Hotel+Gaeta",
-      mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d13.5759!3d41.2087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zGaeta!5e0!3m2!1sit!2sit!4v1234567890",
+      mapsUrl: "https://maps.app.goo.gl/tMPBjpHagxraMoNJ7",
+      mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.824690335063!2d13.509964576847164!3d41.22559070601428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13252cec279b2d2f%3A0x4fd6f6ae7fe909cb!2sHotel%20Summit!5e0!3m2!1sit!2sit!4v1782638919161!5m2!1sit!2sit",
+    },
     },
   ],
 
@@ -140,16 +141,16 @@ export const weddingConfig = {
   // ── CALENDARIO ────────────────────────────────────────────
   calendar: {
     enabled: true,
-    eventTitle: "Matrimonio Marco & Ilaria",
+    eventTitle: "Matrimonio Alessandro & Valentina",
     startISO: "20260710T153000",
     endISO: "20260710T233000",
-    description: "Il matrimonio di Marco e Ilaria",
-    location: "Napoli, Italia",
+    description: "Il matrimonio di Alessandro & Valentina",
+    location: "Gaeta, Italia",
   },
 
   // ── FOOTER ────────────────────────────────────────────────
   footer: {
-    tagline: "Marco & Ilaria — 10.07.2026",
+    tagline: "Alessandro & Valentina — 12.09.2026",
     showPoweredBy: false,
   },
 };
