@@ -58,7 +58,7 @@ export default function HeroSection({ bride, groom, dateDisplay, dayName, hero }
           inset: "-10%",
           backgroundImage: `url(${hero.backgroundImage})`,
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "center top",
           transform: `translateY(${parallaxOffset}px)`,
           transition: "transform 0.05s linear",
           willChange: "transform",
