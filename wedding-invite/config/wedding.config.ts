@@ -30,7 +30,7 @@ export const weddingConfig = {
   meta: {
     title: "Alessandro e Valentina — 12 Settembre 2026",
     description: "Siamo felici di invitarti al nostro matrimonio",
-    ogImage: "/foto-iniziale.jpeg",
+    ogImage: "/images/og-image.jpg",
     themeColor: "#c9a96e",
   },
 
@@ -38,7 +38,7 @@ export const weddingConfig = {
   hero: {
     tagline: "Ci sposiamo!",
     subtitle: "Unisciti a noi nel giorno più bello della nostra vita",
-    backgroundImage: "/foto-background.jpeg",
+    backgroundImage: "/images/foto background.jpeg",
     overlayOpacity: 0.45,
     showScrollHint: true,
   },
@@ -51,7 +51,7 @@ export const weddingConfig = {
     paragraphs: [
       "Nove anni fa, nel 2017, le nostre strade si sono incrociate per la prima volta. Da allora, Gaeta è diventata il nostro nido d'amore, il luogo del cuore dove ogni tramonto ha custodito i nostri sogni e visto crescere la nostra storia. Oggi, più uniti che mai, siamo pronti a iniziare il capitolo più bello ed emozionante della nostra vita insieme.",
     ],
-    image: "/foto-storia.jpeg",
+    image: "/images/foto la nostra storia.jpeg",
   },
 
   // ── CERIMONIA & RICEVIMENTO ───────────────────────────────
@@ -106,6 +106,19 @@ export const weddingConfig = {
     registryUrl: "",
   },
 
+  // ── GALLERIA ──────────────────────────────────────────────
+  gallery: {
+    enabled: true,
+    title: "I Nostri Momenti",
+    images: [
+      "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=800&q=80",
+      "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&q=80",
+      "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=80",
+      "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+    ],
+  },
 
   // ── MUSICA ────────────────────────────────────────────────
   music: {
