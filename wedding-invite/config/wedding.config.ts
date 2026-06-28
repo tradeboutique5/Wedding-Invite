@@ -8,14 +8,14 @@ export const weddingConfig = {
   bride: {
     name: "Valentina",
     fullName: "Valentina",
-    phone: "+39 3469488131",
-    whatsapp: "+39 3469488131",
+    phone: "+39 346 9488131",
+    whatsapp: "393469488131",
   },
   groom: {
     name: "Alessandro",
     fullName: "Alessandro",
     phone: "+39 349 5562254",
-    whatsapp: "+39 349 5562254",
+    whatsapp: "393495562254",
   },
 
   // ── EVENTO ────────────────────────────────────────────────
@@ -49,9 +49,7 @@ export const weddingConfig = {
     title: "La Nostra Storia",
     subtitle: "Come tutto è iniziato...",
     paragraphs: [
-    "Nove anni fa, nel 2017, le nostre strade si sono incrociate per la prima volta. 
-    Da allora, Gaeta è diventata il nostro nido d’amore, il luogo del cuore dove ogni tramonto ha custodito i nostri sogni e visto crescere la nostra storia. 
-    Oggi, più uniti che mai, siamo pronti a iniziare il capitolo più bello ed emozionante della nostra vita insieme.",
+      "Nove anni fa, nel 2017, le nostre strade si sono incrociate per la prima volta. Da allora, Gaeta è diventata il nostro nido d'amore, il luogo del cuore dove ogni tramonto ha custodito i nostri sogni e visto crescere la nostra storia. Oggi, più uniti che mai, siamo pronti a iniziare il capitolo più bello ed emozionante della nostra vita insieme.",
     ],
     image: "/images/foto la nostra storia.jpeg",
   },
@@ -78,8 +76,7 @@ export const weddingConfig = {
       address: "Via Flacca, Km 23",
       city: "Gaeta (LT)",
       mapsUrl: "https://maps.app.goo.gl/tMPBjpHagxraMoNJ7",
-      mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.824690335063!2d13.509964576847164!3d41.22559070601428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13252cec279b2d2f%3A0x4fd6f6ae7fe909cb!2sHotel%20Summit!5e0!3m2!1sit!2sit!4v1782638919161!5m2!1sit!2sit",
-    },
+      mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.824690335063!2d13.509964576847164!3d41.22559070601428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13252cec279b2d2f%3A0x4fd6f6ae7fe909cb!2sHotel%20Summit!5e0!3m2!1sit!2sit!4v1782638919161!5m2!1sit!2sit",
     },
   ],
 
@@ -90,9 +87,7 @@ export const weddingConfig = {
     subtitle: "Facci sapere se sarai con noi",
     deadline: "30 Giugno 2026",
     whatsappTemplate: "Ciao! Confermo la mia presenza al vostro matrimonio 💍",
-    // Opzione 1: WhatsApp (come il sito di riferimento)
     mode: "whatsapp" as "whatsapp" | "form",
-    // Opzione 2: form con endpoint (es. Formspree)
     formAction: "https://formspree.io/f/YOUR_FORM_ID",
   },
 
@@ -102,14 +97,13 @@ export const weddingConfig = {
     title: "Lista di Nozze",
     subtitle: "Il Regalo Perfetto",
     heading: "Viaggio di Nozze",
-    message:
-      "Siamo infinitamente grati per avervi nella nostra vita. Il dono più prezioso è quello di poter condividere la nostra gioia con voi. Con tutto il nostro affetto, Marco & Ilaria",
+    message: "Siamo infinitamente grati per avervi nella nostra vita. Il dono più prezioso è quello di poter condividere la nostra gioia con voi. Con tutto il nostro affetto, Alessandro & Valentina",
     iban: {
       enabled: true,
       holder: "Alessandro e Valentina",
       code: "IT00X0000000000000000000000",
     },
-    registryUrl: "", // URL lista nozze esterna (es. Amazon, Prezziosi)
+    registryUrl: "",
   },
 
   // ── GALLERIA ──────────────────────────────────────────────
@@ -142,9 +136,9 @@ export const weddingConfig = {
   calendar: {
     enabled: true,
     eventTitle: "Matrimonio Alessandro & Valentina",
-    startISO: "20260710T153000",
-    endISO: "20260710T233000",
-    description: "Il matrimonio di Alessandro & Valentina",
+    startISO: "20260912T103000",
+    endISO: "20260912T230000",
+    description: "Il matrimonio di Alessandro e Valentina",
     location: "Gaeta, Italia",
   },
 
