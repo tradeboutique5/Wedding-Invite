@@ -67,7 +67,7 @@ export const weddingConfig = {
       address: "Via San Giovanni Bosco 8",
       city: "Gaeta (LT)",
       mapsUrl: "https://maps.app.goo.gl/k84SWnEH3zRCHzkA9",
-      mapsEmbed:  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.4981328579306!2d13.578183276846724!3d41.21091390692173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ad372e0bd91db%3A0x7170c56d77f4a7b8!2sTempio%20di%20San%20Francesco%20d&#39;Assisi!5e0!3m2!1sit!2sit!4v1782638814399!5m2!1sit!2sit",
+      mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.4981328579306!2d13.578183276846724!3d41.21091390692173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ad372e0bd91db%3A0x7170c56d77f4a7b8!2sTempio%20di%20San%20Francesco%20d%27Assisi!5e0!3m2!1sit!2sit!4v1782638814399!5m2!1sit!2sit",
     },
     {
       id: "reception",
