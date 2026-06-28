@@ -38,7 +38,7 @@ export const weddingConfig = {
   hero: {
     tagline: "Ci sposiamo!",
     subtitle: "Unisciti a noi nel giorno più bello della nostra vita",
-    backgroundImage: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1920&q=80",
+    backgroundImage: "/images/foto background.jpeg",
     overlayOpacity: 0.45,
     showScrollHint: true,
   },
@@ -49,9 +49,9 @@ export const weddingConfig = {
     title: "La Nostra Storia",
     subtitle: "Come tutto è iniziato...",
     paragraphs: [
-      "Ci siamo incontrati per la prima volta in una fredda sera di dicembre, quasi per caso, quasi per destino.",
-      "Da quel momento non ci siamo più lasciati. Ogni giorno insieme è stato un regalo, ogni sorriso una promessa.",
-      "Oggi vogliamo che tu sia con noi mentre facciamo la promessa più grande: quella di amarci per sempre.",
+      "​Nel 2017 le nostre strade si sono incrociate per la prima volta. 
+       Da allora sono passati anni intensi, pieni di complicità, supporto reciproco e un amore che è cresciuto giorno dopo giorno. Il 12 settembre 2026 faremo il passo più importante. 
+       Sarà una gioia immensa avervi al nostro fianco mentre coroniamo la nostra storia.",
     ],
     image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80",
   },
