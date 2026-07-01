@@ -51,7 +51,7 @@ export const weddingConfig = {
     paragraphs: [
       "Nove anni fa, nel 2017, le nostre strade si sono incrociate per la prima volta. Da allora, Gaeta è diventata il nostro nido d'amore, il luogo del cuore dove ogni tramonto ha custodito i nostri sogni e visto crescere la nostra storia. Oggi, più uniti che mai, siamo pronti a iniziare il capitolo più bello ed emozionante della nostra vita insieme.",
     ],
-    image: "/images/foto la nostra storia.jpeg",
+    image: "/images/foto-storia.jpeg",
   },
 
   // ── CERIMONIA & RICEVIMENTO ───────────────────────────────
