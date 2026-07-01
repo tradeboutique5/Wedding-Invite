@@ -108,7 +108,7 @@ export const weddingConfig = {
 
   // ── GALLERIA ──────────────────────────────────────────────
   gallery: {
-    enabled: true,
+    enabled: false,
     title: "I Nostri Momenti",
     images: [
       "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=800&q=80",
@@ -122,7 +122,7 @@ export const weddingConfig = {
 
   // ── MUSICA ────────────────────────────────────────────────
   music: {
-    enabled: true,
+    enabled: false,
     autoplay: false,
     src: "/audio/wedding-song.mp3",
     title: "La Nostra Canzone",
