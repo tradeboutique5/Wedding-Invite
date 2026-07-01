@@ -38,7 +38,7 @@ export const weddingConfig = {
   hero: {
     tagline: "Ci sposiamo!",
     subtitle: "Unisciti a noi nel giorno più bello della nostra vita",
-    backgroundImage: "/images/foto background.jpeg",
+    backgroundImage: "/images/foto-background.jpeg",
     overlayOpacity: 0.45,
     showScrollHint: true,
   },
@@ -104,6 +104,29 @@ export const weddingConfig = {
       code: "IT00X0000000000000000000000",
     },
     registryUrl: "",
+  },
+
+  // ── GALLERIA ──────────────────────────────────────────────
+  gallery: {
+    enabled: true,
+    title: "I Nostri Momenti",
+    images: [
+      "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=800&q=80",
+      "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&q=80",
+      "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=80",
+      "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+    ],
+  },
+
+  // ── MUSICA ────────────────────────────────────────────────
+  music: {
+    enabled: true,
+    autoplay: false,
+    src: "/audio/wedding-song.mp3",
+    title: "La Nostra Canzone",
+    artist: "Ed Sheeran",
   },
 
   // ── TEMA ──────────────────────────────────────────────────
