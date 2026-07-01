@@ -101,7 +101,7 @@ export const weddingConfig = {
     iban: {
       enabled: true,
       holder: "Alessandro e Valentina",
-      code: "IT00X0000000000000000000000",
+      code: "IT30N0537274370000011067791",
     },
     registryUrl: "",
   },
