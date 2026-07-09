@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 interface Props {
   story: {
     title: string;
@@ -27,16 +26,16 @@ export default function StorySection({ story }: Props) {
           <div
             className="reveal"
             style={{
-              borderRadius: "50%",
+              borderRadius: "1.5rem",
               overflow: "hidden",
-              width: "min(240px, 65vw)",
-              height: "min(240px, 65vw)",
+              width: "min(320px, 85vw)",
+              height: "min(420px, 110vw)",
               margin: "0 auto 2.5rem",
               border: "2px solid var(--color-primary-light)",
               boxShadow: "0 20px 60px rgba(0,0,0,0.15)",
               backgroundImage: `url(${story.image})`,
-              backgroundSize: "110%",
-              backgroundPosition: "center 40%",
+              backgroundSize: "100%",
+              backgroundPosition: "center center",
               backgroundRepeat: "no-repeat",
             }}
           />
