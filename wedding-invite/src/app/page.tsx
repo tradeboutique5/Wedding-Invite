@@ -13,10 +13,8 @@ import AnimatedDivider from "@/components/ui/AnimatedDivider";
 
 export default function HomePage() {
   const cfg = weddingConfig;
-
   return (
     <main className="container-safe">
-      {/* HERO — fullscreen entrance */}
       <HeroSection
         bride={cfg.bride.name}
         groom={cfg.groom.name}
@@ -24,31 +22,18 @@ export default function HomePage() {
         dayName={cfg.wedding.dayName}
         hero={cfg.hero}
       />
-
-      {/* COUNTDOWN */}
       <CountdownSection targetDate={cfg.wedding.date} />
-
       <AnimatedDivider variant="rose" />
-
-      {/* STORIA */}
       {cfg.story.enabled && <StorySection story={cfg.story} />}
-
       <AnimatedDivider variant="leaf" />
-
-      {/* TIMELINE EVENTO */}
       <EventTimeline events={cfg.events} />
-
       <AnimatedDivider variant="diamond" />
-      
+      <AnimatedDivider variant="leaf" />
       {cfg.shuttle.enabled && (
-      <ShuttleSection shuttle={cfg.shuttle} bride={cfg.bride} groom={cfg.groom} />
+        <ShuttleSection shuttle={cfg.shuttle} bride={cfg.bride} groom={cfg.groom} />
       )}
-      {/* GALLERY */}
       {cfg.gallery.enabled && <GallerySection gallery={cfg.gallery} />}
-
       <AnimatedDivider variant="rose" />
-
-      {/* RSVP */}
       {cfg.rsvp.enabled && (
         <RSVPSection
           rsvp={cfg.rsvp}
@@ -56,22 +41,14 @@ export default function HomePage() {
           groom={cfg.groom}
         />
       )}
-
       <AnimatedDivider variant="leaf" />
-
-      {/* LISTA NOZZE */}
       {cfg.gifts.enabled && <GiftSection gifts={cfg.gifts} />}
-
       <AnimatedDivider variant="diamond" />
-
-      {/* CONTATTI */}
       <ContactSection
         bride={cfg.bride}
         groom={cfg.groom}
         calendar={cfg.calendar}
       />
-
-      {/* FOOTER */}
       <FooterSection footer={cfg.footer} bride={cfg.bride.name} groom={cfg.groom.name} />
     </main>
   );
