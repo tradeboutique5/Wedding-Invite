@@ -28,10 +28,10 @@ export default function StorySection({ story }: Props) {
             className="reveal"
             style={{
               position: "relative",
-              borderRadius: "1.5rem",
+              borderRadius: "50%",
               overflow: "hidden",
-              width: "min(300px, 80vw)",
-              height: "min(380px, 100vw)",
+              width: "min(280px, 75vw)",
+              height: "min(280px, 75vw)",
               margin: "0 auto 2.5rem",
               border: "2px solid var(--color-primary-light)",
               boxShadow: "0 20px 60px rgba(0,0,0,0.15)",
@@ -41,7 +41,7 @@ export default function StorySection({ story }: Props) {
               src={story.image}
               alt="La nostra storia"
               fill
-              style={{ objectFit: "cover", objectPosition: "center top" }}
+              style={{ objectFit: "cover", objectPosition: "center 65%" }}
             />
           </div>
         )}
