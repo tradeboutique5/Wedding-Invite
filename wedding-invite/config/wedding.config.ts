@@ -80,6 +80,16 @@ export const weddingConfig = {
     },
   ],
 
+  
+// ── NAVETTA ───────────────────────────────────────────────
+  shuttle: {
+    enabled: true,
+    title: "Servizio Navetta",
+    icon: "🚌",
+    message: "Sarà disponibile un servizio navetta gratuito per raggiungere comodamente il Tempio di San Francesco. Per motivi organizzativi, il servizio è attivo su prenotazione. Vi preghiamo di riservare il vostro posto scrivendo ad Alessandro o Valentina.",
+  },
+
+  
   // ── RSVP ──────────────────────────────────────────────────
   rsvp: {
     enabled: true,
