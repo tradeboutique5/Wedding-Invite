@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 interface Props {
   story: {
     title: string;
@@ -26,19 +27,23 @@ export default function StorySection({ story }: Props) {
           <div
             className="reveal"
             style={{
-              borderRadius: "1.5rem",
+              position: "relative",
+              borderRadius: "50%",
               overflow: "hidden",
-              width: "min(320px, 85vw)",
-              height: "min(420px, 110vw)",
+              width: "min(240px, 65vw)",
+              height: "min(240px, 65vw)",
               margin: "0 auto 2.5rem",
               border: "2px solid var(--color-primary-light)",
               boxShadow: "0 20px 60px rgba(0,0,0,0.15)",
-              backgroundImage: `url(${story.image})`,
-              backgroundSize: "100%",
-              backgroundPosition: "center center",
-              backgroundRepeat: "no-repeat",
             }}
-          />
+          >
+            <Image
+              src={story.image}
+              alt="La nostra storia"
+              fill
+              style={{ objectFit: "cover", objectPosition: "center center" }}
+            />
+          </div>
         )}
         <div className="stagger-children">
           {story.paragraphs.map((p, i) => (
