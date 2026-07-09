@@ -29,4 +29,15 @@ export default function ShuttleSection({ shuttle, bride, groom }: Props) {
             {shuttle.message}
           </p>
         </div>
-        <div className="reveal" style={{ display: "flex", gap: "1rem", justifyContent:
+        <div className="reveal" style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href={`https://api.whatsapp.com/send?phone=${groom.whatsapp}&text=${msg}`} target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ padding: "0.875rem 1.75rem", textDecoration: "none" }}>
+            Prenota con Alessandro
+          </a>
+          <a href={`https://api.whatsapp.com/send?phone=${bride.whatsapp}&text=${msg}`} target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ padding: "0.875rem 1.75rem", textDecoration: "none" }}>
+            Prenota con Valentina
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
