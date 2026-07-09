@@ -218,7 +218,7 @@ export default function EventTimeline({ events }: Props) {
                 color: "var(--color-primary)",
               }}
             >
-              10 Luglio 2026
+              12 Settembre 2026
             </span>
           </div>
         </div>
