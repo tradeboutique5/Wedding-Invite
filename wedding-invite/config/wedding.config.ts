@@ -130,8 +130,8 @@ export const weddingConfig = {
 
   // ── MUSICA ────────────────────────────────────────────────
   music: {
-    enabled: false,
-    autoplay: false,
+    enabled: true,
+    autoplay: true,
     src: "/audio/wedding-song.mp3",
     title: "La Nostra Canzone",
     artist: "Ed Sheeran",
