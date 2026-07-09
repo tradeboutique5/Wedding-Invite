@@ -1,3 +1,4 @@
+import ShuttleSection from "@/components/sections/ShuttleSection";
 import { weddingConfig } from "../../config/wedding.config";
 import HeroSection from "@/components/sections/HeroSection";
 import CountdownSection from "@/components/sections/CountdownSection";
@@ -38,7 +39,10 @@ export default function HomePage() {
       <EventTimeline events={cfg.events} />
 
       <AnimatedDivider variant="diamond" />
-
+      
+      {cfg.shuttle.enabled && (
+      <ShuttleSection shuttle={cfg.shuttle} bride={cfg.bride} groom={cfg.groom} />
+      )}
       {/* GALLERY */}
       {cfg.gallery.enabled && <GallerySection gallery={cfg.gallery} />}
 
