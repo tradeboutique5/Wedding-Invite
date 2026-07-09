@@ -35,8 +35,8 @@ export default function StorySection({ story }: Props) {
               border: "2px solid var(--color-primary-light)",
               boxShadow: "0 20px 60px rgba(0,0,0,0.15)",
               backgroundImage: `url(${story.image})`,
-              backgroundSize: "180%",
-              backgroundPosition: "20% 50%",
+              backgroundSize: "110%",
+              backgroundPosition: "center 40%",
               backgroundRepeat: "no-repeat",
             }}
           />
