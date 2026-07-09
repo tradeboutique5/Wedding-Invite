@@ -108,7 +108,7 @@ export const weddingConfig = {
     message: "Siamo infinitamente grati per avervi nella nostra vita. Il dono più prezioso è quello di poter condividere la nostra gioia con voi. Se desiderate farci un regalo, il nostro sogno più grande è realizzare il viaggio di nozze che abbiamo sempre desiderato: ogni vostro pensiero sarà un passo verso questa indimenticabile avventura. Con tutto il nostro affetto, Alessandro e Valentina.",
     iban: {
       enabled: true,
-      holder: "Alessandro Cerasi e Valentina Palumbo",
+      holder: "Alessandro Cerasi e Valentina Palombo",
       code: "IT30N0537274370000011067791",
     },
     registryUrl: "",
