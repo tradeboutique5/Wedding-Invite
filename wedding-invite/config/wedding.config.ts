@@ -80,8 +80,7 @@ export const weddingConfig = {
     },
   ],
 
-  
-// ── NAVETTA ───────────────────────────────────────────────
+  // ── NAVETTA ───────────────────────────────────────────────
   shuttle: {
     enabled: true,
     title: "Servizio Navetta",
@@ -89,7 +88,6 @@ export const weddingConfig = {
     message: "Sarà disponibile un servizio navetta gratuito per raggiungere comodamente il Tempio di San Francesco. Per motivi organizzativi, il servizio è attivo su prenotazione. Vi preghiamo di riservare il vostro posto scrivendo ad Alessandro o Valentina.",
   },
 
-  
   // ── RSVP ──────────────────────────────────────────────────
   rsvp: {
     enabled: true,
@@ -107,7 +105,7 @@ export const weddingConfig = {
     title: "Lista di Nozze",
     subtitle: "Il Regalo Perfetto",
     heading: "Viaggio di Nozze",
-    message: "Siamo infinitamente grati per avervi nella nostra vita. Il dono più prezioso è quello di poter condividere la nostra gioia con voi. Se desiderate farci un regalo, il nostro sogno più grande è realizzare il viaggio di nozze che abbiamo sempre desiderato: ogni vostro pensiero sarà un passo verso questa indimenticabile avventura.Con tutto il nostro affetto, Alessandro & Valentina.",
+    message: "Siamo infinitamente grati per avervi nella nostra vita. Il dono più prezioso è quello di poter condividere la nostra gioia con voi. Se desiderate farci un regalo, il nostro sogno più grande è realizzare il viaggio di nozze che abbiamo sempre desiderato: ogni vostro pensiero sarà un passo verso questa indimenticabile avventura. Con tutto il nostro affetto, Alessandro e Valentina.",
     iban: {
       enabled: true,
       holder: "Alessandro Cerasi e Valentina Palumbo",
