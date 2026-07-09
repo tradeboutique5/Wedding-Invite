@@ -69,7 +69,7 @@ export default function StorySection({ story }: Props) {
               src={story.image}
               alt="La nostra storia"
               fill
-              style={{ objectFit: "cover" }}
+              style={{ objectFit: "cover", objectPosition: "center center" }}
             />
           </div>
         )}
