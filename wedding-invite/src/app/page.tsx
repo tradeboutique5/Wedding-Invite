@@ -28,12 +28,11 @@ export default function HomePage() {
       <AnimatedDivider variant="leaf" />
       <EventTimeline events={cfg.events} />
       <AnimatedDivider variant="diamond" />
-      <AnimatedDivider variant="leaf" />
       {cfg.shuttle.enabled && (
         <ShuttleSection shuttle={cfg.shuttle} bride={cfg.bride} groom={cfg.groom} />
       )}
-      {cfg.gallery.enabled && <GallerySection gallery={cfg.gallery} />}
       <AnimatedDivider variant="rose" />
+      {cfg.gallery.enabled && <GallerySection gallery={cfg.gallery} />}
       {cfg.rsvp.enabled && (
         <RSVPSection
           rsvp={cfg.rsvp}
