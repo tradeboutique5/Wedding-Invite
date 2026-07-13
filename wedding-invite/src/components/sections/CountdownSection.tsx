@@ -138,7 +138,7 @@ export default function CountdownSection({ targetDate }: Props) {
             color: "var(--color-primary)",
           }}
         >
-          {isPast ? "Oggi è il grande giorno!" : "Manca ancora..."}
+          {isPast ? "Oggi è il grande giorno!" : "Mancano ancora..."}
         </p>
       </div>
 
