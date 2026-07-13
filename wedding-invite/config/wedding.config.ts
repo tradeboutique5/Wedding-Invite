@@ -105,7 +105,7 @@ export const weddingConfig = {
     title: "Lista di Nozze",
     subtitle: "Il Regalo Perfetto",
     heading: "Viaggio di Nozze",
-    message: "Siamo infinitamente grati per avervi nella nostra vita. Il dono più prezioso è quello di poter condividere la nostra gioia con voi. Se desiderate farci un regalo, il nostro sogno più grande è realizzare il viaggio di nozze che abbiamo sempre desiderato: ogni vostro pensiero sarà un passo verso questa indimenticabile avventura. Con tutto il nostro affetto, Alessandro e Valentina.",
+    message: "Siamo infinitamente grati per avervi nella nostra vita. Il dono più prezioso è quello di poter condividere la nostra gioia con voi. Se avete piacere di farci un regalo, il nostro sogno più grande è realizzare il viaggio di nozze che abbiamo sempre desiderato: ogni vostro pensiero sarà un passo verso questa indimenticabile avventura. Con tutto il nostro affetto, Alessandro e Valentina.",
     iban: {
       enabled: true,
       holder: "Alessandro Cerasi e Valentina Palombo",
